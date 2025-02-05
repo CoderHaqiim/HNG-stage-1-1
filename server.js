@@ -12,8 +12,6 @@ function isArmstrong(num) {
     return digits.reduce((sum, digit) => sum + Math.pow(digit, power), 0) === num;
 }
 
-console.log(isArmstrong(6))
-
 const isNumber = (num) => {
     if(!Number.isInteger(num)) return false
 
