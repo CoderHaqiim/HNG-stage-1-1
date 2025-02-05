@@ -38,7 +38,7 @@
       "odd"
     ],
     "digit_sum": 9,
-    "fun_fact": "no fun fact"
+    "fun_fact": "9 is the sum of the digits of 41 is 5, and 41-5 = 36."
   }
 </pre>
 
