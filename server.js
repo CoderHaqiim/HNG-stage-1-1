@@ -84,7 +84,7 @@ app.get('/api/classify-number', async(req,res)=>{
         is_prime: isPrime(nomba),
         is_perfect: isPerfect(nomba),
         properties:properties,
-        digit_sum: nomba.toString().split("").reduce((sum, digit) => sum + parseInt(digit, 10), 0),
+        digit_sum: Math.abs(nomba).toString().split("").reduce((sum, digit) => sum + parseInt(digit, 10), 0),
         fun_fact: funFact
     })
 })
