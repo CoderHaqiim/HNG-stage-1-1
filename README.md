@@ -10,7 +10,7 @@
 
 <b><h2>Base URL</h2></b>
 <p>
-  https://hng-stage-0-0.onrender.com/
+  https://hng-stage-1-1-2.onrender.com/
 </p>
 
 <b><h2>End points</h2></b>
