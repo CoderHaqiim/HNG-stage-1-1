@@ -88,7 +88,7 @@ app.get('/api/classify-number', async(req,res)=>{
 })
 
 app.use((req,res)=>{
-    res.status(404).json({message:"requested resource not found"})
+    return res.status(404).json({message:"requested resource not found"})
 })
 
 app.listen(PORT, ()=>{
